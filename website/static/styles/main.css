@@ -1,0 +1,59 @@
+nav a img{
+    width: 20%;
+}
+
+nav ul, .col-gap-50{
+    column-gap: 50px;
+}
+
+#content{
+    background-color: #14213D;
+}
+
+@font-face {
+    font-family: 'FredokaOne';
+    src:  url('FredokaOne-Regular.ttf') format('truetype');
+  }
+
+.heading{
+    background-color: #EFAB57;
+    color: #14213D;
+    z-index: 1;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: FredokaOne;
+}
+
+#heading{
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-300{
+    width: auto;
+    height: 300px;
+}
+
+.img-500{
+    width: auto;
+    height: 500px;
+}
+
+#recent img{
+    width: 50%;
+    height: auto;
+}
+
+.padding-ew-0{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#search button{
+    background-color: #fff;
+    border-color: #fff;
+    color: #14213D;
+    font-weight: 600;
+}
+

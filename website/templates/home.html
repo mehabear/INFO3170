@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<section class="heading">
+    <div class="container py-3">
+        <h3 id="heading">Jamaica's premier e-commerce platform</h3>
+    </div>
+</section>
+        
+<section class="container py-3">
+    <div class="d-flex justify-content-center">
+        <div id="search" class="input-group w-50 p-3">
+            <input type="search" class="form-control rounded" placeholder="Search by name, category, etc." aria-label="Search" aria-describedby="search-addon" />
+            <button type="button" class="btn btn-outline-primary rounded ms-1">GO</button>
+          </div>
+    </div>
+    
+
+    <div class="row row-cols-3">
+        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="heading rounded"><h1 class="fs-5">NEW ITEMS</h1></div>
+
+            <div class="carousel-inner card img-300">
+                
+                <div class="carousel-item p-3 active">
+                    <img class="img-fluid" src="..\static\images\Origin Products\Grapefruit of Gold Small.jpg"/>
+                </div>
+
+                <div class="carousel-item p-3">
+                    <img class="img-fluid" src="..\static\images\Origin Products\Pressed Apple Pure Small.jpg"/>
+                </div>
+
+                <div class="carousel-item p-3">
+                    <img class="img-fluid" src="..\static\images\Origin Products\Soursop Jungle Small.jpg"/>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target=""></button>
+        </div>
+
+        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="heading rounded"><h1 class="fs-5">ON SALE</h1></div>
+            <div class="carousel-inner card img-300">
+                <div class="carousel-item p-3 active">
+                    <img class="img-fluid" src="..\static\images\Eatons\Eaton CHUTNEY JAM Main Image-1.jpg"/>
+                </div>
+
+                <div class="carousel-item p-3">
+                    <img class="img-fluid" src="..\static\images\Eatons\Eaton CHUTNEY JAM Main Image-2.jpg"/>
+                </div>
+
+                <div class="carousel-item p-3">
+                    <img class="img-fluid" src="..\static\images\Eatons\Eaton CHUTNEY JAM Main Image-3.jpg"/>
+                </div>
+            </div>
+        </div>
+
+    <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+        <div class="heading rounded"><h1 class="fs-5">SPONSORED ITEMS</h1></div>
+        <div class="carousel-inner card img-300">
+            <div class="carousel-item p-3 active">                
+                <img class="img-fluid" src="..\static\images\Mothers\Mother's Bakery 36oz.jpg"/>
+            </div>
+
+            <div class="carousel-item p-3">
+                <img class="img-fluid" src="..\static\images\Mothers\Mother's Bakery Easter bun.jpg"/>
+            </div>
+
+            <div class="carousel-item p-3">
+                <img class="img-fluid" src="..\static\images\Mothers\Spice Bun.jpg"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="recent" class="heading my-5">
+
+    <div class="container-fluid d-flex flex-column">
+        <div class="heading py-3">
+            <h3 class="fs-5">Recently Viewed</h3>
+        </div>
+    </div>
+
+    <div class="px-5 pb-4">
+        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 g-4">
+            <div class="col">
+              <div class="card justify-content-center">
+                <div>
+                    <img src="..\static\images\Origin Products\Grapefruit of Gold Small.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card justify-content-center">
+                <div>
+                    <img src="..\static\images\Origin Products\Guava Pineapple Small.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card justify-content-center">
+                <div>
+                    <img src="..\static\images\Origin Products\Island Fruits Small.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 3</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card justify-content-center">
+                <div>
+                    <img src="..\static\images\Origin Products\Sorrel an Ginja Small.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 4</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card justify-content-center">
+                <div>
+                      <img src="..\static\images\Origin Products\Soursop Jungle Small.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Product 5</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                </div>
+                </div>
+              </div>
+          </div>
+    </div>
+
+</section>
+
+<section>
+    <div class="p-5">
+        <h3 class="text-center" style="color: #fff">FOOTER UNDER CONSTRUCTION</h3>
+    </div>
+
+</section>
+
+<!-- <section class="my-5">
+
+    <div class="container-fluid d-flex flex-column">
+        <div class="heading">
+            <h3>Browse Categories</h3>
+        </div>
+        <div id="categories col-gap-50">
+            <a>Most Popular</a>
+            <a>Clothing</a>
+            <a>Auto Parts</a>
+            <a>Jewelry</a>
+            <a>Food</a>
+        </div>
+    </div>
+
+
+    <div class="row row-cols-lg-4 row-cols-xs-2 g-5">
+        <div class="card">
+            <h5 class="my-3 text-center">Random Product #1</h5>
+            <img class="img-fluid" src="..\static\images\Origin Products\Grapefruit of Gold Small.jpg"/>
+        </div>
+        <div class="card">
+            <h5 class="my-3 text-center">Random Product #2</h5>
+            <img class="img-fluid" src="..\static\images\Origin Products\Guava Pineapple Small.jpg"/>
+        </div>
+        <div class="card">
+            <h5 class="my-3 text-center">Random Product #3</h5>
+            <img class="img-fluid" src="..\static\images\Origin Products\Island Fruits Small.jpg"/>
+        </div>
+        <div class="card">
+            <h5 class="my-3 text-center">Random Product #4</h5>
+            <img class="img-fluid" src="..\static\images\Origin Products\Mango Jamaica Small.jpg"/>
+        </div>
+        <div class="card">
+            <h5 class="my-3 text-center">Random Product #5</h5>
+            <img class="img-fluid" src="..\static\images\Origin Products\Orange truth small.jpg"/>
+        </div>
+        <div class="card">
+            <h5 class="my-3 text-center">Random Product #6</h5>
+            <img class="img-fluid" src="..\static\images\Origin Products\Sorrel an Ginja Small.jpg"/>
+        </div>
+    </div>
+</section> -->
+
+{% endblock %}
