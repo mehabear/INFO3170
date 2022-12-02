@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}Account{% endblock %}
+
+{% block content %}
+<div id="main-content-container">
+  <div id="sidebar">
+    <div class="list-item-container">
+      <span class="list-item-icon-container">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-user"></i>
+          </a>
+      </span
+      ><span class="list-item">Profile</span>
+    </div>
+    <div class="list-item-container">
+      <span class="list-item-icon-container"
+        ><img
+          class="list-item-icon"
+          src="../static/images/icons/items-icon.png"
+          alt="" /></span
+      ><span class="list-item">Items</span>
+    </div>
+    <div class="list-item-container">
+      <span class="list-item-icon-container"
+        ><img
+          class="list-item-icon"
+          src="../static/images/icons/business-icon.png"
+          alt="" /></span
+      ><span class="list-item">Orders</span>
+    </div>
+    <div class="list-item-container">
+      <span class="list-item-icon-container"
+        ><img class="list-item-icon" src="../static/images/icons/message-icon.png" alt=""
+      /></span>
+      <span class="list-item">Messages</span>
+    </div>
+    <div class="list-item-container">
+      <span class="list-item-icon-container"
+        ><img
+          class="list-item-icon"
+          src="../static/images/icons/settings-icon (2).png"
+          alt=""
+      /></span>
+      <span class="list-item">Settings</span>
+    </div>
+    <div class="list-item-container">
+      <span class="list-item-icon-container"
+        ><img src="../static/images/icons/logout-icon (2).png" alt="" /></span
+      ><span class="list-item">Logout</span>
+    </div>
+  </div>
+  <div id="main-content">
+    <div id="profile-picture-container">
+      <img id="profile-picture" src="../static/images/icons/pp.jpg" alt="" />
+      <span class="profile-picture-text" id="username">Allah Dalla</span>
+      <span class="profile-picture-text" id="email">dummy@gmail.com</span>
+      <span class="profile-picture-text" id="business">Real Wholesale</span>
+    </div>
+    <div id="profile-info-container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam id
+        enim reprehenderit sed non, assumenda odit quod ipsam ratione fugiat
+        eius labore iure voluptatem? Iste ipsa labore soluta nisi rerum?
+      </div>
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+        natus! Quam quibusdam odio consectetur incidunt nemo quisquam
+        eveniet ex quidem nesciunt non in doloremque, possimus debitis,
+        temporibus consequatur nihil culpa.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../styles/account.js"></script>
+
+{% endblock %}
